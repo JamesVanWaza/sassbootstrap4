@@ -1,41 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:700');
-
 @import './custom';
 @import '../../node_modules/bootstrap/scss/bootstrap';
-
 @import '../../node_modules/animate.css/animate';
 @import '../prism/prism-xonokai';
-
 .page-section-title {
-  @include font-size(5rem);
+    @include font-size(5rem);
 }
 
 .page-section-text {
-  @include font-size(1.7rem);
+    @include font-size(1.7rem);
 }
 
 .h2 {
-  @include font-size(2rem);
+    @include font-size(2rem);
 }
 
 .site-header {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .site-nav.inbody {
-  background: $primary;
+    background: $primary;
 }
 
 .layout-social {
-  font-size: 1.4em;
+    font-size: 1.4em;
 }
 
 a.text-primary:hover {
-  color: lighten(theme-color('primary'), 20%);
+    color: lighten(theme-color('primary'), 20%);
 }
 
 .list-group-item:hover {
-  background: $gray-700;
+    background: $gray-700;
 }

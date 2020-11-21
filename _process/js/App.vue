@@ -14,16 +14,14 @@
             ref="searchinput"
             style="background: transparent;"
             aria-describedby="searchinput"
-            autocomplete="off"
-          >
+            autocomplete="off">
           <div class="input-group-append">
             <button
               class="btn btn-outline-secondary border-left-0 border text-white"
               style="background-color: transparent"
               type="button"
               @click="$refs.searchinput.focus()"
-              id="button-addon2"
-            >
+              id="button-addon2">
               <i class="fas fa-search"></i>
             </button>
           </div>
